@@ -1,5 +1,6 @@
 import React from "react";
 import './footer.css';
+
 const Footer = () => {
   const year= new Date().getFullYear();
   return (
@@ -11,12 +12,14 @@ const Footer = () => {
             <h4>Shourya Srivastava</h4>
             <p>© {year} Shourya Srivastava All rights reserved</p>
             <p className="d-flex">
-              <a href="https://www.instagram.com/shourya_srivastava07" target="_blank" rel="noopener noreferrer">
-                <i className="fa-brands fa-instagram"></i>
+              <a href="https://www.linkedin.com/in/shourya-srivastava-2b16ba189/" target="_blank"
+               rel="noopener noreferrer" style={{marginRight:"1rem"}}>
+                <i className="fa-brands fa-linkedin"></i>
               </a>
-              <a href="https://www.facebook.com/shouryasrivastava934" target="_blank" rel="noopener noreferrer">
-                <i className="fa-brands fa-facebook mx-3"></i>
+              <a href="https://github.com/shourya12" target="_blank" rel="noopener noreferrer">
+                <i className="fa-brands fa-github"></i>
               </a>
+              
             </p>
           </div>
 
@@ -29,7 +32,9 @@ const Footer = () => {
 
           <div className="third mt-5">
             <h4>My Resume</h4>
-            <a href="https://drive.google.com/file/d/19EJFJVwxBVbjpLTXRIwhgc-vi0zrZcg3/view?usp=sharing">Resume</a>
+            <a href="https://drive.google.com/file/d/1Wux3wSNWg5PgBAbKz2llL6Igu5SOzdEt/view?usp=sharing
+
+">Resume</a>
             
           </div>
 

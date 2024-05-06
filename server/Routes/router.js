@@ -30,7 +30,7 @@ router.post("/register", async (req, res) => {
         from: process.env.EMAIL,
         to: email,
         subject: "sending email using nodejs",
-        text: "Your has been submitted",
+        text: "Your response has been submitted",
       };
 
       console.log("1");

@@ -1,40 +1,17 @@
+import images from "../assest/image.png"
 const projectData = [
     {
         id:1,
         projectName:"Portfolio Website (MERN Stack)",
-        demo:"https://amazoneccomerceapp.herokuapp.com/",
-        imgsrc:"/mern.png"
+        demo:"https://github.com/shourya12/portfolio",
+        imgsrc:images
     },
     {
         id:2,
-        projectName:"Zomato Clone",
-        demo:"https://amazoneccomerceapp.herokuapp.com/",
-        imgsrc:"/zomatothumb.png"
-    },
-    {
-        id:3,
-        projectName:"Redux Todo App",
-        demo:"https://react-reduxtodoapp.netlify.app/",
-        imgsrc:"/todofirstthumb.png"
-    },
-    {
-        id:4,
-        projectName:"H & M Portfolio",
-        demo:"https://hmdeveloper1.herokuapp.com/",
-        imgsrc:"/zomatothumb.png"
-    },
-    {
-        id:5,
-        projectName:"Ecommerce Cart With Redux",
-        demo:"https://react-redux-cart-youtube.netlify.app/",
-        imgsrc:"/redux_thumb_done.png"
-    },
-    {
-        id:6,
-        projectName:"Crud App",
-        demo:"https://react-redux-cart-youtube.netlify.app/",
-        imgsrc:"/inonevideothumb.png"
-    },
+        projectName:"Exam portal",
+        demo:"https://github.com/shourya12/Exam-Portal-",
+        imgsrc:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRszQkvKADUVX4kzHHRV4gSTlXUWLk7l7be954RgQksyQ&s"
+    }
 ]
 
 export default projectData;

@@ -34,11 +34,14 @@ const Playlist = () => {
                       }}
                       className="mt-4 mb-4"
                     >
-                      <Card.Img
-                        variant="top"
-                        style={{ width: "20rem", marginLeft: -13 }}
-                        src={el.imgsrc}
-                      />
+                      <div style={{ width: "20rem",height:"20rem",marginLeft:"1rem",marginTop:"1rem"}}>
+                          <img
+                          
+                            style={{width: "20rem",height:"13rem", objectPosition:'center',objectFit:'cover' }}
+                              src={el.imgsrc}
+                       /> 
+                      </div>
+                      
                       <Card.Body className="d-flex justify-content-center flex-column">
                         <Card.Title className="text-center">
                           {el.projectName}
