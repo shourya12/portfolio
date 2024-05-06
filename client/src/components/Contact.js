@@ -40,7 +40,7 @@ const Contact = () => {
     } else if (mobile === "") {
       toast.error("mobile number is require");
     } else {
-      const res = await fetch("http://localhost:6002/register", {
+      const res = await fetch("https://p-backend2.vercel.app/register", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
